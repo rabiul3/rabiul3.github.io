@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M. Rabiul Islam, PhD</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <div class="nav-container">
+    <div class="logo">M. Rabiul Islam, PhD</div>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-image">
+      <img src="assets/profile.jpg" alt="Profile Photo">
+    </div>
+
+    <div class="hero-text">
+      <h1>M. Rabiul Islam, PhD</h1>
+      <p class="subtitle">
+        Postdoctoral Researcher · Neurological Institute · Cleveland Clinic
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="content">
+  <h2>About Me</h2>
+
+  <p>
+  I am a Postdoctoral Researcher at the Neurological Institute, Cleveland Clinic.
+  My training is in biomedical engineering and computational signal analysis,
+  with specialization in electrophysiology, brain network modeling, and machine learning.
+  </p>
+
+  <p>
+  I received my Ph.D. in Biomedical Engineering from the National Institute of
+  Technology Raipur. My doctoral research examined functional brain network
+  organization in dyslexic children using EEG-based connectivity analysis,
+  integrating graph-theoretic modeling with classification frameworks.
+  </p>
+
+  <p>
+  Prior to my current role, I served as Assistant Professor in the Department
+  of Electronics and Communication Engineering at Amrita Vishva Vidyapeetham,
+  Coimbatore, India, and as Ad-Hoc Faculty in Biomedical Engineering at
+  NIT Raipur, where I taught biomedical signal processing, data science,
+  and instrumentation while continuing research in electrophysiological
+  network analysis.
+  </p>
+</section>
+
+<section id="research" class="content">
+  <h2>Research Focus</h2>
+
+  <p>
+  I study large-scale brain network organization in epilepsy using MEG/EEG.
+  My work identifies abnormal functional communities in interictal MEG recordings
+  to understand how epileptogenic networks persist outside seizures.
+  </p>
+
+  <p>
+  Using source-space connectivity, graph theory, and advanced signal processing,
+  I characterize pathological mesoscale topology and develop quantitative
+  network biomarkers for epileptogenic zone prediction and surgical planning.
+  </p>
+</section>
+
+<section id="publications" class="content">
+  <h2>Selected Publications</h2>
+
+  <ul class="pub-list">
+
+    <li>
+      Seshadri, N.P. Guhan, Bikesh Kumar Singh, and Ram Bilas Pachori.
+      “EEG-Based Functional Brain Network Analysis and Classification of Dyslexic Children During Sustained Attention Task.”
+      <em>IEEE Transactions on Neural Systems and Rehabilitation Engineering</em>,
+      31 (2023): 4672–4682.
+      <a href="https://doi.org/10.1109/TNSRE.2023.3335806" target="_blank">DOI</a>
+    </li>
+
+    <li>
+      Seshadri, N.P. Guhan, Sneha Agrawal, Bikesh Kumar Singh, B. Geethanjali,
+      V. Mahesh, and Ram Bilas Pachori.
+      “EEG-Based Classification of Children with Learning Disabilities Using Shallow and Deep Neural Network.”
+      <em>Biomedical Signal Processing and Control</em>,
+      82 (2023): 104553.
+      <a href="https://doi.org/10.1016/j.bspc.2022.104553" target="_blank">DOI</a>
+    </li>
+
+    <li>
+      Seshadri, N.P. Guhan, B. Geethanjali, and Bikesh Kumar Singh.
+      “EEG-Based Functional Brain Networks Analysis in Dyslexic Children During Arithmetic Task.”
+      <em>Cognitive Neurodynamics</em>,
+      16, no. 5 (2022): 1013–1028.
+      <a href="https://doi.org/10.1007/s11571-021-09769-9" target="_blank">DOI</a>
+    </li>
+
+  </ul>
+
+  <p class="external-links">
+    <a href="https://scholar.google.com/citations?user=YSBDHyMAAAAJ&hl=en" target="_blank">Google Scholar</a> |
+    <a href="https://orcid.org/0000-0002-7506-9104" target="_blank">ORCID</a> |
+    <a href="https://in.linkedin.com/in/guhan-seshadri-n-p-1355505b" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/guhanseshadri" target="_blank">GitHub</a>
+  </p>
+</section>
+
+<section id="cv" class="content">
+  <h2>Curriculum Vitae</h2>
+
+  <p>
+  A complete academic CV including publications, teaching experience,
+  grants, and professional service is available below.
+  </p>
+
+  <a href="assets/guhanCV.pdf" class="cv-button" target="_blank">
+    Download CV (PDF)
+  </a>
+</section>
+
+<section id="contact" class="content">
+  <h2>Contact</h2>
+
+  <p>
+  9500 Euclid Ave, T1-201<br>
+  Cleveland Clinic<br>
+  Cleveland, Ohio 44195<br>
+  United States
+  </p>
+
+  <p>Email: seshadg@ccf.org</p>
+</section>
+
+<footer>
+  <p>
+    © 2026 M. Rabiul Islam, PhD<br>
+    Last updated: <span id="last-updated"></span>
+  </p>
+</footer>
+
+<script>
+  const lastModified = new Date(document.lastModified);
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  document.getElementById("last-updated").textContent =
+    lastModified.toLocaleDateString(undefined, options);
+</script>
+
+</body>
+</html>
